@@ -1,0 +1,314 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*blank div part*/
+
+#div{
+    background-color: #13CE9C;
+    padding: 5px;
+}
+
+/*utility part start*/
+
+.h-primary{
+    font-size: 3.2rem;
+    padding: 10px;
+}
+.h-secondary{
+    font-size: 2.1rem;
+    padding: 12px;
+}
+.center{
+    text-align: center;
+}
+
+
+/*navigation part statr*/
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    padding: 5px;
+    background-color: whitesmoke;
+    /*z-index: -1;
+    opacity: 0.8;*/
+}
+
+/*navbar search-bar*/
+
+#search-bar{
+    margin: 10px;
+}
+#search-bar #input{
+    height: 40px;
+    padding-right: 40px;
+    border: 2px black solid;
+    background-color: white;
+    padding-left: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    font-family: 'Bree Serif', serif;
+}
+#search-bar #btn{
+    height: 45px;
+    padding-right: 30px;
+    border: 2px black solid;
+    background-color: #ff7200;
+    padding-left: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+/*navigation bar list style*/
+
+#navbar ul{
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+}
+#navbar ul li{
+    
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: black;
+    display: block;
+    padding: 3px 25px;
+    text-decoration: none;
+    border-radius: 20px;    
+}
+
+#navbar ul li a:hover{
+   color: white;
+   background-color: black;
+}
+
+/*marquee part start*/
+
+#marquee-tag{
+    background-color: yellow;
+    padding: 25px;
+}
+#marquee-tag .marquee{
+    color: red;
+    font-family: 'Bree Serif', serif;
+}
+
+/*middle part start*/
+/*home section*/
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+   /* background: url('teaching.jpg') no-repeat center/center cover;*/
+}
+#home::before{
+    content: "";
+    background: url('teaching.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3; 
+}
+#home h1{
+    
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+#home h2{
+    color: black;
+    text-align: center; 
+    font-family: 'Bree Serif', serif;  
+}
+#home p{
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+#start{
+    display: flex;
+    
+}
+#start .star{
+    margin: 20px;
+    padding: 7px 10px;
+    background-color: tomato;
+    border: 2px black solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: black;
+    font-family: 'Bree Serif', serif;
+    font-size: 1rem;
+}
+
+
+/*indutrial training part start*/
+
+#industrial-training{
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+}
+#industrial-training #training{
+    color: green;
+    font-family: 'Bree Serif', serif;
+}
+
+/* offline/online/ IT classroom part start*/
+
+#classroom{
+    text-align: center;
+}
+#of-cl-it{
+    border: 2px black solid;
+    padding: 10px;
+    font-size: 1.8rem;
+}
+
+/*programming language part start*/
+
+#programming{
+    display: flex;
+    margin: 25px;
+}
+#programming .box{
+    border: 2px rgb(82, 12, 12) solid;
+    padding: 35px;
+    margin: 4px;
+    border-radius: 5px;
+    background-color: rgb(242, 235, 226);
+}
+#programming .box img{
+    height: 95px;
+    display: block;
+    margin: auto;
+}
+#programming .box p{
+    font-size: 1.1rem;
+}
+
+/*blogs part start*/
+
+.blogs{
+    background-color: blue;
+    border: 2px grey solid;
+    padding: 12px;
+    margin-left: 630px;
+    margin-right: 630px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 25px;
+}
+.blogs a{                           
+    color: white;
+    text-decoration: none;
+}
+.blogs:hover{                       
+    background-color:  tomato;   
+}
+
+/*login part start*/
+
+#login{
+    display: flex;
+    margin: 25px;
+}
+#login .bx{
+    background-color: #13CEB4;
+    padding: 35px;
+    margin: 4px;
+    width: 50%;
+    text-align: center;
+    
+}
+#login .bx input{
+    padding: 8px 100px;
+    border-radius: 5px;
+}
+
+/*registration buttonmaking part start*/
+
+.btn{
+    padding: 7px 25px;
+    border: 2px grey solid;
+    background-color: blue;
+    color: white;
+    margin: 17px;
+    font-size: 1.1rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+    font-family: 'Bree Serif', serif;
+}
+.btn:hover{
+    background-color: tomato;
+    color: white;
+}
+
+/*div photo making section*/
+
+#photo{
+    display: flex;
+    margin: 25px;
+}
+
+#photo .dvph{
+    background-color: white;
+    text-align: center;
+}
+.dvph img{
+    height: 25px;
+
+}
+
+/*last div making part start*/
+
+#last-div{
+    display: flex;
+}
+#last-div .last{
+    width: 50%;
+    background-color: #27292c;
+    color: white;
+    padding: 25px;
+}
+.last p{
+    color: gray;
+    text-align: left;
+}
+.last h4{
+    margin: 5px;
+}
+
+/*footer part start*/
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+
+
+

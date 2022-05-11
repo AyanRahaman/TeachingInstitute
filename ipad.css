@@ -1,0 +1,72 @@
+/*blank div making part start*/
+
+#div{
+    flex-wrap: wrap;
+}
+
+
+/*navigation part start*/
+
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+/*marquee part statrt*/
+
+#marquee-tag{
+    flex-wrap: wrap;
+}
+
+/*middle part start*/
+
+#home{
+    height: 700px;
+    padding: 3px 68px;
+}
+#home::before{
+    height: 800px;
+}
+/*course cardd secrion part start*/
+
+#programming{
+    flex-direction: column;
+}
+
+/*view oour blogs part start*/
+
+.blogs{
+    flex-wrap: wrap;
+}
+
+/*login section start*/
+
+#login{
+    flex-direction: column;
+}
+#login .bx{
+        width: auto;
+        margin: 0px;
+}
+
+/*last part start*/
+
+#last-div{
+    flex-direction: column;
+}
+#last-div .last{
+    width: auto;
+}
+
+/*blogs part start*/
+
+.blogs{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+
+
